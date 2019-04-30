@@ -16,5 +16,7 @@ list_1 = [10, 11, 12, 13]
 list_2 = [15, 12, 13, 14]
 
 list_array_2d = np.array([list_1, list_2])
-print(list_array_2d.shape)
-print(list_array_2d.ndim)
+print("type(list_array_2d.shape) :", type(list_array_2d.shape))
+print("list_array_2d.shape :", list_array_2d.shape)
+print("list_array_2d.shape row :", list_array_2d.shape[0])
+print("list_array_2d.ndim", list_array_2d.ndim)

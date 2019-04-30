@@ -9,6 +9,9 @@ print('\n b')
 print(b)
 print(np.tile(b, 2))
 
+help(np.tile)
+
+
 # print("b's shape", b.shape)
 # print("b's dimension", b.ndim)
 #
