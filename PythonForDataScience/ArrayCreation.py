@@ -12,7 +12,7 @@ print('\n5X3 arrays all filled with 1s of data type int')
 print(np.ones((5, 3), dtype=np.int))
 
 
-# creating a 4X3 arrays with random values between 0 and 1
+# creating a 4X2 arrays with random values between 0 and 1
 # help(np.random.random)
 print(np.random.random((4, 2)))
 # just getting the random value between 0 to 1, no need to specify dimensions
