@@ -14,7 +14,12 @@ print(np.ones((5, 3), dtype=np.int))
 
 # creating a 4X2 arrays with random values between 0 and 1
 # help(np.random.random)
+# random.random is alias for random_sample
+print('\n creating array using random.random_sample')
+print(np.random.random_sample((4, 2)))
+print('\n creating array using alias random.random for random.random_sample')
 print(np.random.random((4, 2)))
+
 # just getting the random value between 0 to 1, no need to specify dimensions
 print('\njust getting the random value between 0 to 1, no need to specify dimensions')
 print(np.random.random())
@@ -27,7 +32,7 @@ print('array or vector between [18,100) with end exclusive with step of 5 using 
 print(np.arange(18, 100, 5))
 
 print('\narray or vector between [18,20] both range inclusive of size 12 using linspace')
-print(np.linspace(18, 20, 12))
+print(np.linspace(18, 20, num=12))
 
 
 # np.full, creates 4X3 vector filled with 7 as value
